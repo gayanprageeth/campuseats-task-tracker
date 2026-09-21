@@ -24,3 +24,6 @@ jobs:
 
       - name: Run task list
         run: node src/tasks.js
+
+      - name: Verify task list output
+        run: node src/tasks.js
